@@ -36,7 +36,7 @@ By default only Japanese audio and English or Japanese subtitles will be kept
 """)
 if track_filter not in ["N", "No"]:
     audio_filter = input("Audio Filter (default Japanese only): ")
-    subtitle_filter = input("Audio Filter (default Japanese and English only): ")
+    subtitle_filter = input("Subtitle Filter (default Japanese and English only): ")
 
     if audio_filter in ["", None]: audio_filter = "jpn"
     if subtitle_filter in ["", None]: subtitle_filter = "eng, jpn"
